@@ -1,4 +1,5 @@
 FROM ubuntu:14.04
+MAINTAINER saltygaming <salty_gaming@outlook.com>
 
 RUN apt-get update &&\
     apt-get install -y lib32gcc1 wget
